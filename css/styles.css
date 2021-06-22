@@ -4,3 +4,11 @@
 .main-container{
 	background-color:cyan
 }
+
+.row{
+	background-color:darkorange;
+}
+
+.col-6{
+	background-color:aliceblue;
+}
