@@ -12,3 +12,11 @@
 .col-6{
 	background-color:aliceblue;
 }
+
+footer{
+	background-color: grey;
+	height: 50px;
+	padding: 5px 10px 4px 15px;
+	
+	text-align: end
+}
