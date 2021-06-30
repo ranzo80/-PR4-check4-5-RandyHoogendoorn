@@ -1,47 +1,71 @@
 @charset "utf-8";
 /* CSS Document */
-
-
-body{
-	background-color: aliceblue;
+body {
+  height: 100%;
+  background-image:url("../images/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
+
+
+
 .main-container{
-	
+	background-color:lightslategrey;
+	margin-left: 50px;
+	margin-right: 50px;
 	padding: 10px;
 }
+.navbar-logo{
+	margin-left: 10px;
+}
+.lead{
+	margin-left: 20px;
+	color: white;
+	text-align: center;
+}
+.display-4{
+	text-align: center;
+}
+
 
 .card{
-	background-color:aquamarine
+	background-color:aquamarine;
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+
+.embed-responsive{
+	margin-top: 15px;
+}
+
+.img-responsive{
+	padding-bottom: 10px;
 }
 
 
-.col-6{
-	background-color:aliceblue;
-}
-
-footer{
-	background-color: grey;
-	height: 50px;
-	padding: 5px 10px 4px 15px;
-	text-align: end
-}
 
 h1{
 	padding-left: 10px;
+	color: white;
+}
+h2{
+	color: white;
+}
+.welcome-text{
+	color: white;
 }
 
-p{
-	padding-left: 10px;
-}
 
 h5{
 	padding-left: 10px;
 }
 
-.csgo{
-	padding-top: 5px;
-}
-
-.fifa{
-	padding-top: 5px;
+footer{
+	color: white;
+	height: 50px;
+	padding: 5px 10px 4px 15px;
+	text-align: end;
+	margin-right: 50px;
 }
